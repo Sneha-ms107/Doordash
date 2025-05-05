@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "bold";
+    src: url(./font/TTNorms-Bold.woff2);
+}
+@font-face {
+    font-family: "medium";
+    src: url(./font/TTNorms-Medium.woff2);
+}
+
+*.margin{
+    position:relative;
+
+}
+.top display{
+   border:none;
+   margin-top:16px;
+   box-sizing:border-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
