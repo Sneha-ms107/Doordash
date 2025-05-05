@@ -11,19 +11,124 @@
     position:relative;
 
 }
-.top display{
+.top-display{
    border:none;
    margin-top:16px;
    box-sizing:border-box;
 
 }
+.top-display-margin{
+   box-sizing:border-box;
+
+}
+.top-display-padding{
+    display:grid;
+    column-gap:8px;
+    grid-template-columns:auto 1fr auto;
+    grid-tempate-rows:auto auto auto;
+    padding:8px;
+    box-sizing:border-box;
+}
+.doordash-icon{
+    grid-area:2/7;
+    box-sizing:border-box;
+
+}
+.doordash-icon-padding{
+    display:fex;
+    flex-direction:row;
+    align-items:center;
+}
+.browse-display{
+    grid-area:2/2;
+    box-sizing:broder-box;
+
+}
+.browse-app{
+   color:191919ff;
+   font-size:16px;
+   font-weight:700px;
+   font-family:medium;
+   line-height:22px;
+   box-sizing:border-box;
+   display:flex;
+   align-items:center;
+   
+}
+.delivery{
+    color:#606060ff;
+    font-family:medium;
+    font-size:14px;
+    font-weight:500px;
+    display:column;
+}
+.star{
+  display:flex;
+  align-items:center;
+  box-sizing:borde-box;
+  color:#606060ff;
+  font-size:14px;
+  font-weight:700px;
+  line-height:20px;
+  margin:0px;
+  margin-left:0px;
+}
+
+.star-image{
+    margin-left:4px;
+    color:yellow;
+}
+
+.open-button{
+  align-shelf:center;
+  grid-area:2/3;
+
+}
+.open-btn-margin{
+   color:606060ff;
+   font-family:medium;
+   font-size:14px;
+   font-weight:500px;
+}
+.open-padding{
+    display:inline-flex;
+    min-height:32px;
+    align-items:center;
+    justify-content:center;
+    border-radius:9999px;
+    border:none;
+    background-color:#eb1700ff;
+    color:#ffffff;
+}
+.open-icon{
+   padding:0px;
+   box-sizing:border-box;
+   display:inline-flex;
+   border-radius:9999px;
+   border:none;
+   background-color:#eb1700ff;
+   color:#ffffff;
 
 
+}
+.open-margin{
+   display:inline-flex;
+   border-radius:9999px;
+   align-items:center;
+   min-height:32px;
+   text-align:center;
+   background-color:#eb1700ff;
+   color:#ffffff;
+}
 
-
-
-
-
+.open-text{
+   align-items:center;
+   text-decoration:none;
+   background-color:#eb1700ff;
+   color:#ffffff;
+   border-radius:9999px;
+   
+}
 
 
 
