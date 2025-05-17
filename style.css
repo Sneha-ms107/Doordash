@@ -9,144 +9,1387 @@
 
 *.margin{
     position:relative;
-
 }
+
 .top-display{
    border:none;
    margin-top:16px;
    box-sizing:border-box;
-
+   border-bottom:1px;
 }
 .top-display-margin{
    box-sizing:border-box;
+   display:grid;
+   width:100%;
+
 
 }
 .top-display-padding{
     display:grid;
     column-gap:8px;
-    grid-template-columns:auto 1fr auto;
-    grid-tempate-rows:auto auto auto;
-    padding:8px;
-    box-sizing:border-box;
-}
-.doordash-icon{
-    grid-area:2/7;
+    max-width: 100%;
+    width: 100%;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto auto;
+    padding:8px 8px;
     box-sizing:border-box;
 
 }
-.doordash-icon-padding{
+.doordash-icon{
+   max-width:100%;
+   box-sizing:border-box;
+   grid-area:2/1;
+
+}
+.doordash-icon-margin{
     display:fex;
     flex-direction:row;
     align-items:center;
-}
-.browse-display{
-    grid-area:2/2;
-    box-sizing:broder-box;
+    justify-content:flex-start;
+
 
 }
-.browse-app{
-   color:191919ff;
-   font-size:16px;
-   font-weight:700px;
-   font-family:medium;
-   line-height:22px;
-   box-sizing:border-box;
-   display:flex;
+.Browse-display{
+   box-sizing:broder-box;
    align-items:center;
-   
+   max-width:100%;
+   line-height:20px;
+   grid-area:2/2;
+
 }
-.delivery{
-    color:#606060ff;
-    font-family:medium;
-    font-size:14px;
-    font-weight:500px;
-    display:column;
+.Browse{
+  color:#191919ff;
+  font-family:medium;
+  font-size:16px;
+  font-weight:700;
+  line-height:22px;
+
+}
+.order{
+   color:#606060ff;
+   font-size:14px;
+   font-weight:500px;
+   font-family:medium;
+   line-height:20px;
+   display:flex;
 }
 .star{
-  display:flex;
-  align-items:center;
-  box-sizing:borde-box;
-  color:#606060ff;
-  font-size:14px;
-  font-weight:700px;
-  line-height:20px;
-  margin:0px;
-  margin-left:0px;
+   align-items:center;
+   justify-content:center;
+   color:orange;
+   margin-top:2px;
+   box-sizing:border-box;
 }
 
-.star-image{
-    margin-left:4px;
-    color:yellow;
-}
-
-.open-button{
-  align-shelf:center;
-  grid-area:2/3;
-
-}
-.open-btn-margin{
-   color:606060ff;
+.rating{
+   margin-left:4px;
+   color:#606060ff;
    font-family:medium;
    font-size:14px;
    font-weight:500px;
 }
-.open-padding{
-    display:inline-flex;
-    min-height:32px;
-    align-items:center;
-    justify-content:center;
-    border-radius:9999px;
-    border:none;
-    background-color:#eb1700ff;
-    color:#ffffff;
-}
-.open-icon{
-   padding:0px;
-   box-sizing:border-box;
-   display:inline-flex;
-   border-radius:9999px;
-   border:none;
-   background-color:#eb1700ff;
-   color:#ffffff;
-
+.open{
+   align-self:center;
+   grid-area:2/3;
 
 }
 .open-margin{
    display:inline-flex;
-   border-radius:9999px;
-   align-items:center;
    min-height:32px;
-   text-align:center;
-   background-color:#eb1700ff;
-   color:#ffffff;
-}
-
-.open-text{
-   align-items:center;
+   justify-content:center;
+   border-radius:9999px;
    text-decoration:none;
    background-color:#eb1700ff;
    color:#ffffff;
+
+}
+.open-padding{
+   padding-left:12px;
+   padding-right:12px;
+   display:inline-flex;
+   min-height:32px;
+   align-items:center;
    border-radius:9999px;
+   border:none;
+   background-color:#eb1700ff;
+   color:#ffff;
+
+}
+.open-btn{
+   display:inline-flex;
+   align-items:center;
+   justify-content:center;
+   border-radius:9999px;
+   border:none;
+   min-height:32px;
+   text-decoration:none;
+   color:#ffffff;
+   background-color:#eb1700ff;
+   font-family:medium;
+   font-size:14px;
+   font-weight:500px;
+}
+
+.open-tag{
+  display:inline-flex;
+  min-height: 32px; 
+  align-items:center;
+  border-radius:9999px;
+  border:none;
+  text-decoration:none;
+  color:#ffffff;
+  background-color:#eb1700ff;
+
+}
+.open-text{
+  color:#ffffff;
+  background-color:#eb1700ff;
+  font-size:16px;
+  font-weight:700px;
+  line-height:22px;
+  text-decoration:none;
+
+}
+.second-display{
+   flex-direction:column;
+   align-items:center;
+
+
+}
+.second-display-margin{
+  background-image:url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
+  height:550px;
+  align-items:center;
+  width:100%;
+  justify-content:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content:column;
+  align-items: center;
+   flex-direction:column;
+   line-height:28px;
+   font-size:32px;
+   text-align:center;
+   display:inline-flex;  
+
+}
+
+.Doordash-margin{
+   margin-top:20px;
+   margin-bottom:20px;
+   grid-area:2/2;
+   color:#ffff;
+   display:grid;
+   align-items:center;
+   display:inline-flex;
+}
+.doordash-img{
+  max-width:100%;
+  fill:#ffff;
+  display :flex;
+  align-items:center;
+  
+
+}
+.doordash-img-margin{
+  margin-left:16px;
+  line-height:12px;
+  display:grid;
+  
+  width:100%;
+  
+
+}
+.doordash-text{
+ display:inlne-flex;
+ margin-left:8px;
+ color:#ffffff;
+ font-family:bold;
+ font-weight:500px;
+ font-size:18px;
+ align-items:center;
+
+}
+.delivery-enter-login{
+  color:#ffff;
+  gap:20px;
+  font-family:medium;
+
+}
+
+.delivery-order{
+   justify-content:center;
+   margin-bottom:24px;
+   margin-top:24px;
+   gap:32px;
+   display:inline-flex;
+}
+.delivery-order-text{
+   font-family:bold;
+   justify-content:center;
+   align-items:center;
+   display:inline-flex;
+   font-weight:500px;
+   color:#ffffff;
+   line-height:28px;
+   text-align:center;
+   
+   
+}
+.login-open{
+  position:absolute;
+ right: 60px;
+ margin-top:32px;
+ justify-content: flex-start;
+display:inline-flex;;
+top: 70px;
+margin-top:50px;
+}
+.login-open-margin{
+  padding-left:32px;
+  padding-right:24px;
+  justify-content:flex-end;
+  gap:8px;
+  display:flex;
+  gap:10px
+}
+.login{
+  display:inline-flex;
+  min-height:32px;
+  align-items:center;
+  border-radius: 9999px;
+  border:none;
+  text-align:center;
+  text-decoration:none;
+  background-color:#ffffff;
+  color:#191919ff;
+  max-width:100%;
+  position:absolute;
+  right:112px;
+  top:16px
+
+}
+.login-padding{
+  padding-left:12px;
+  padding-right:12px;
+  width:100%;
+  min-height:32px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:9999px;
+  border:none;
+  text-decoration:none;
+  background-color:#ffff;
+  color:#191919ff;
+
+}
+
+.login-margin{
+   max-width:100%;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   min-height:32px;
+   border-radius:9999px;
+   border:none;
+   background-color:#ffff;
+   color:#191919ff;
+
+}
+.login-box{
+   width:100%;
+   color:#191919ff;
+   background-color:#ffff;
+   font-size:20px;
+   font-weight:700px;
+   font-family:medium;
+   line-height:20px;
+   text-decoration:none;
+   min-height:32px;
+   justify-content:center;
+   align-items:center;
+   border-radius:9999px;
+   border:none;
+  border-radius:9999px;
+  border:none;
+
+}
+
+.login-text{
+   color:#191919ff;
+   background-color:#ffff;
+   font-size:16px;
+   font-weight:700px;
+   font-family:medium;
+   line-height:22px;
+   text-decoration:none;
+  align-items:center;
+  min-height:32px;
+  border-radius:9999px;
+  display:inline-flex;
+  justify-content:center;
+  border:none;
+  text-align:center;
+ justify-content: flex-start;
+}
+.open-app{
+ display:inline-flex;
+ min-height:32px;
+ align-items:center;
+ justify-content:center;
+ border-radius:9999px;
+ border:none;
+ background-color:#eb1700ff;
+ color:#ffffff;
+ max-width:100%;
+ position: absolute;
+ top:300px;
+ right:32px;
+}
+.open-app-margin{
+  padding-left:12px;
+  padding-right:12px;
+  position:relative;
+  display:inline-flex;
+  min-height:32px;
+  align-items:center;
+  justify-content:flex-start;
+  background-color:#eb1700ff;
+  color:#ffffff;
+  text-align:center;
+  text-decoration:none;
+  border-radius:9999px;
+  border:none;
+}
+.open-app-padding{
+  max-width:100%;
+  display:flex;
+  align-items:center;
+  position:relative;
+  border-radius:9999px;
+  border:none;
+  justify-content:flex-start;
+  border-radius:9999px;
+  border:none;
+  text-decoration:none;
+  text-align:center;
+  background-color:#eb1700ff;
+  color:#ffff;
+
+
+}
+.open-app-box{
+   display:flex;
+   justify-content:flex-start;
+   position:relative;
+   max-width:100%;
+   display:inline-flex;
+   min-height:32px;
+   align-items:center;
+   border-radius:9999px;
+   border:none;
+   text-align:center;
+   background-color:#eb1700ff;
+   color:#ffff;
+
+}
+.open-button{
+   position:relative;
+   display:inline-flex;
+   min-height:32px;
+   align-items:center;
+   justify-content:flex-start;
+   background-color:#eb1700ff;
+   border-radius:9999px;
+   color:#ffff;
+   text-decoration:none;
+
+
+}
+ .open-app-text{
+   color:#ffff;
+   background-color:#eb1700ff;
+   border-radius:9999px;
+   border:none;
+   line-height:22px;
+   font-family:medium;
+   font-size:16px;
+   font-weight:500px;
+   text-decoration:none;
+  position:relative;
+  max-width:100%px;
+  min-height:32px;
+  justify-content:flex-start;
+  width:100%;
+}
+.Enter-Login{
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;
+   width:100%;
+
+}
+.delivery-addess{
+  border-radius:9999px;
+  border:none;
+
+}
+.enter-address-margin{
+   box-sizing:border-box;
+   display:flex;
+}
+
+.enter-address-padding{
+   display:flex;
+   min-height:40px;
+
+}
+.Enter-full-padd{
+  border-radius:9999px;
+  font-family:medium;
+  font-size:16px;;
+  padding-top:6px;
+  padding-right:16px;
+  padding-bottom:6px;
+  padding-left:16px;
+  font-size:16px;
+  font-weight:500px;
+  line-height:22px;
+  color:191919ff;
+ display:flex;
+ align-items:center;
+ width:100%;
+ background-color:#ffff;
+ padding-left:350px;
+ height:75px;
+}
+.search{
+   margin-right:12px;
+   display:flex;
+   line-height:22px;
+   fill:#191919ff;
+   align-items:center;
+   width:100%;
+   border-radius:9999px;
+   border:none;
+   max-width:100%;
+  padding:12px 12px 4px;
+
+}
+.search-margin{
+   display: flex;
+   align-items:center;
+   justify-content:center;
+   height:24px;
+   fill:#191919ff;
+   width:100%;
+   left:20px
+}
+.Enter-delivery{
+   justify-content:center;
+   font-family:medium;
+   font-size:16px;
+   font-weight:500px;
+   line-height:22px;
+   color:#191919ff;
+   width:100%;
+   align-items:center;
+   display:inline-flex;
+   margin-left:12px;
+   justify-content:flex-start;
+
+}
+.Enter-delivery-margin{
+   font-family:medium;
+   font-size:16px;
+   font-weight:500px;
+   line-height:22px;
+   width:100%;
+   align-items:center;
+   color:#191919ff;
+   display:inline-flex;
+
+}
+
+.click-button{
+  border:none;
+  margin-right:0px;
+  max-width:100%;
+}
+.click-button-margin{
+ background-color:#ffff;
+border:none;
+}
+
+.login-button{
+   margin-top:16px;
+   padding:0px;
+   margin:0px;
+   min-height:32px;
+   align-items:center;
+   justify-content: flex-start;
+   border-radius:9999px;
+   border :none;
+   background-color:#ffff;
+   color:#191919ff;
+   margin-top:20px;
+
+}
+.login-button-margin{
+   padding-left:12px;
+   padding-right:12px;
+   display:inline-flex;
+   min-height:32px;
+   align-items:center;
+   border-radius:9999px;
+   border:none;
+   justify-content:center;
+   text-decoration:none;
+   background-color:#ffff;
+   color:#191919ff;
+   
+}
+.login-button-padding{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   padding:0px;
+   min-height:32px;
+   width:100%;
+   justify-content:flex-start;
+   text-decoration:none;
+   text-align:center;
+   border-radius:9999px;
+   border:none;
+   background-color:#ffff;
+   color:#191919ff;
+}
+.login-button-img{
+   justify-content:flex-start;
+   display:inline-flex;
+   min-height:32px;
+   align-items:center;
+   border-radius:9999px;
+   background-color:#ffff;
+   color:#191919ff;
+   border-radius:9999px;
+   border:none;
+}
+.login-button-text-padd{
+   align-items:center;
+   justify-content:center;
+   padding:0px;
+   display:inline-flex;
+   min-height:32px;
+   border-radius:9999px;
+   border:none;
+   text-align:center;
+   color:#191919ff;
+   background-color:#ffff;
+   margin-left:4px;
+
+
+}
+.login-button-text{
+   width:100%;
+   color:#191919ff;
+   font-family: medium;
+   font-size:14px;
+   font-weight:700px;
+   line-height:20px;
+   text-decoration:none;
+   text-align:center;
+   display:inline-flex;
+   min-height:32px;
+   align-items:center;
+   justify-content:flex-start;
+   border-radius:9999px;
+   border:none;
+   margin-right:20px
+}
+
+.continue-browse{
+  width: 100%;
+  
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:2px
+}
+.continue-browse-margin{
+   margin-top:20px;
+   margin-left:20px;
+   margin-right:20px;
+}
+.continue-browse-padding{
+   border-radius:12px;
+   border:1px solid;
+   padding:4px;
+   background-color:#f7f7f7f7;
+   border:none;
+}
+.full-app-content{
+   display:flex;
+   border:none;
+
+}
+.red-icon{
+   width:60px;
+   height:60px;
+   border-radius:12px;
+   border:1px solid;
+   background-color:#ffff;
+   margin-right:8px;
+   padding:8px;
+   display:flex;
+   color:#eb1700ff;
+   border:none;
+
+}
+.contents-app{
+  max-width:100%;
+ 
+ grid-area:2/2;
+ align-items:center;
+
+}
+.faster-text{
+   color:#191919ff;
+   font-family:medium;
+   font-size:18px;
+   font-weight:700px;
+   line-height:20px;
+   text-decoration:none;
+   border:none;
+   display:flex;
+
+}
+.order-text{
+  margin-left:4px;
+  margin-top:2px;
+  color:#606060ff;
+  font-size:14px;
+  font-weight:500px;
+  line-height:20px;
+  text-decoration:none;
+  display:flex;
+  font-family:medium;
+  color:#606060ff;
+
+}
+.yellow-star{
+   margin-top:2px;
+   max-width:100%;
+   align-items:center;
+   justify-content:flex-start;
+    color:orange;
+
+}
+
+.star-rating{
+   margin-left:4px;
+   color:#606060ff;
+   font-family:medium;
+   font-size:14px;
+   line-height:20px;
+   text-decoration:none;
+   display:block;
+   margin:0px;
+  font-weight:500px;
+  
+}
+.Red-continue-app{
+   margin-top:16px;
+   margin:0px;
+   padding:0px;
+   display:flex;
+   min-height:32px;
+   width:100%;
+   align-items:center;
+   border:none;
+   text-decoration:none;
+   justify-content:center;
+   border-radius:9999px;
+   text-align:center;
+   background-color:#eb1700ff;
+   color:#ffff;
+   width:100%;
+   
+}
+.Red-app-margin{
+   display:block;
+   padding:0px 12px;
+   min-height:32px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   border-radius:9999px;
+   border:none;
+   text-align:center;
+   color:#ffff;
+
+
+}
+.red-app-padding{
+   max-width:100%;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   min-height:40px;
+   align-items:center;
+   justify-content:center;
+   border-radius:9999px;
+   border:none;
+   text-align:center;
+   background-color:#eb1700ff;
+   color:#ffff;
+   text-decoration:none;
+
+
+}
+.Red-app-full{
+   
+   justify-content:center;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   min-height:40px;
+   width:100%;
+   border-radius:9999px;
+   border:none;
+   text-align:center;
+   text-decoration:none;
+   background-color:#eb1700ff;
+   color:#ffff;
+}
+.Red-app-text{
+   
+   color:#ffff;
+   font-family:bold;
+   font-size:16px;
+   font-weight:700px;
+   line-height:22px;
+   text-decoration:none;
+   text-align:center;
+   display:flex;
+   justify-content:center;
+   border-radius:9999px;
+   border:none;
+   background-color:#eb1700ff;
+   color:#ffffff;
+   
+}
+.thrid-display{
+  margin:0px auto;
+
+}
+
+.thrid-display-margin{
+   display:flex;
+   justify-content:center;
+   flex-direction:column;
+   padding:8px;
+   max-width:100%;
+   margin-top:40px;
+   margin-bottom:40px;
+}
+.thrid-display-padding{
+   display:flex;
+   height:100%;
+   flex-direction:column;
+   justify-content:center;
+}
+
+.Scooty-display{
+   display:flex;
+   width:100%;
+   min-width:360px;
+   padding:16px;
+
+}
+.scooty-img{
+   margin-right:32px;
+}
+
+.scooty-display-margin{
+   display:flex;
+   flex-flow:column;
+   width:100%;
+   max-width:250px;
+
+}
+.scooty-display-padding{
+   flex-direction:column;
+   align-items:center;
+  justify-content:center;
+  display:inline-flex;
+  margin-left:2px;
+  display:block;
+}
+.become-text{
+   margin-top:10px;
+   color:#191919ff;
+   font-family:bold;
+   font-size:32px;
+   font-weight:700px;
+   line-height:24px;
+   text-decoration:none;
+   right:32px;
+   align-items:center;  
+}
+.work-text{
+   margin-top:0px;
+   color:#191919ff;
+   font-family:medium;
+   font-size:18px;
+   font-weight:500px;
+   line-height:24px;
+   text-decoration:none;
+   text-align:left;
+   padding:0px;
+}
+.learning-margin{
+   border:none;
+   padding:0px;
+   margin-top:12px;
+   background-color:#ffff;
+   align-items:center;
+   display:flex;
+   justify-content:center;
+}
+
+.learning{
+   color:#eb1700ff;
+   font-family:medium;
+   font-size:14px;
+   font-weight:700px;
+   line-height:20px;
+   text-decoration:none;
+   margin:12px;
+   background-color:#ffff;
+   align-items:center;
+   flex-direction:row;
+}
+.gap{
+   width:4px;
+   margin:12px;
+   padding:0px;
+   border:0px;
+   background-color:#ffff;
+   justify-content:space-evenly;
+   align-items:center;
+   display:flex;
+}
+
+.fourth-display{
+   padding:16px;
+   display:flex;
+   width:100%;
+   min-width:360px;
+   padding:16px;
+   max-width:100%;
+   box-sizing:border-box;
+
+}
+.Home-image{
+  margin-right:32px; 
+  height:88px;
+  width:88px;
+
+}
+.Become-margin{
+   display:flex;
+   width:100%;
+   max-width:250px;
+
+}
+.become-padding{
+   max-width:100%;
+   display:block;
+   margin-left:32px;
+
+}
+.Become-merchant-text{
+   margin-top:10px;
+   color:#191919ff;
+   font-family:medium;
+   
+   font-weight:700px;
+   text-decoration:none;
+   padding:0px;
+
+}
+.days-text{
+   margin-top:10px;
+   color:#191919ff;
+   font-family:medium;
+   font-size:18px;
+   font-weight:500px;
+   line-height:24px;
+   text-decoration:none;
+   text-align:left;
+   padding:0px;
+
+}
+.Sign-doordash-margin{
+   border:0px;
+   padding:0px;
+   margin-top:12px;
+   background-color:#ffffff;
+   color:#eb1700ff;
+   align-items:center;
+   
+}
+.Sign-doordash{
+   color:#eb1700ff;
+   font-family:medium;
+   font-size:14px;
+   font-weight:700px;
+   text-decoration:none;
+   line-height:20px;
+   display:block;
+   margin:12px;
+   padding:0px;
+   align-items:center;
+   display:flex;
+}
+.Sign-gap{
+   width:4px;
+   box-sizing:border-box;
+   border:0px;
+   padding:0px;
+   background-color:#ffffff;
+   align-items:center;
+   display:block;
+   justify-content:space-evenly;
+}
+.fifth-display-margin{
+   display:flex;
+   width:100%;
+   min-width:360px;
+   padding:16px;
+   max-width:100%;
+   box-sizing:border-box;
+
+}
+.mobile-display{
+   margin-right:32px;
+   margin:0px;
+   color:#191919ff;
+   font-family:bold;
+   font-size:18px;
+   font-weight:700px;
+   line-height:24px;
+   text-decoration:none;
+   right:32px;
+   align-items:center;
+   width:15%px;
+   display:flex;
+   
+
+}
+.Doordash-experience{
+   
+   margin-top:10px;
+   color:#191919ff;
+   font-family:bold;
+   font-size:32px;
+   font-weight:500px;
+   line-height:24px;
+   text-decoration:none;
+   right:32px;
+   align-items:center;
+}
+.Doordash-experience-margin{
+  
+   margin-top:10px;
+   color:#191919ff;
+   font-family:bold;
+   font-size:18px;
+   font-weight:500px;
+   line-height:24px;
+   text-decoration:none;
+   right:32px;
+   align-items:center;
+   justify-content:12px;
+
+}
+.Get-doordash-text{
+   color:#191919ff;
+   display:flex;
+   font-weight:700px;
+   font-family:medium;
+   text-decoration:none;
+   padding:0px;
+
+}
+.Experience-app-text{
+   margin-top:0px;
+   font-family:medium;
+   font-weight:500px;
+   font-size:18px;
+   line-height:24px;
+   text-decoration:none;
+   text-align:left;
+   margin:0px;
+   padding:0px;
+
+}
+.Get-app-margin{
+   border:0px;
+   padding:0px;
+   margin-top:12px;
+   background-color:#ffff;
+   display:flex;
+   align-items:center;
+
+}
+.get-app{
+  color:#eb1700ff;
+  font-family:medium;
+  font-weight:700px;
+  font-size:14px;
+  line-height:20px;
+  display:block;
+  margin:0px;
+  padding:0px;
+  background-color:#ffff;
+  align-items:center;
+}
+.app-gap{
+   width:4px;
+   border:0px;
+   padding:0px;
+   margin:12px;
+   background-color:#ffff;
+   display:flex;
+   align-items:center;
+}
+.sixth-display{
+   width:100%;
+
+}
+.Restaurants{
+   width:100%;
+   box-sizing:border-box;
+
+}
+.Restaurants-margin{
+flex-direction:column;
+display:flex;
+padding:20px;
+min-width:90%;
+align-items:center;
+margin-bottom:-300px;
+}
+
+.pizza-image{
+ width:100%;
+ 
+ object-fit:cover;  
+}
+.Everything-delivered-full{
+   text-align:left;
+   font-family:bold;
+   font-size:32px;
+   margin-top:10px;
+}
+
+.crave-food{
+   text-align:left;
+   max-width:90%;
+   color:#191919ff;
+   font-family:bold;
+   font-size:32px;
+   text-decoration:none;
+   margin-top:10px;
+   
+}
+.fav-food{
+   text-align:left;
+   margin-top:10px;
+   color:#191919ff;
+   font-family:medium;
+   font-size:24px;
+   font-weight:700px;
+   line-height:22px;
+   text-decoration:none;
+   display:block;
+   margin-top:10px;
+   padding:0px;
+   margin-bottom:10px ;
+
+}
+.Home-delivery{
+   color:#191919ff;
+   text-align:center;
+   text-align:left;
+   font-family:medium;
+   font-size:18px;
+   font-weight:500px;
+   line-height:20px;
+   text-decoration:none;
+   display:block;
+   margin-top:10px;
+   padding:0px;
+   
+   
+}
+.find-restaurants{
+   margin-top:20px;
+   box-sizing:border-box;
+   text-align:left;
+
+}
+.find-restaurant-margin{
+   position:relative;
+   max-width:100%;
+   padding:0px 12px;
+   margin:0px;
+   display:inline-flex;
+   min-height: 32px;
+   align-items:center;
+   justify-content:center;
+   border-radius:9999px;
+   border:none;
+   justify-content:center;
+   text-decoration:none;
+   background-color:#eb1700ff;
+   color:#ffff;
+   text-align:center;
+
+}
+.find-restaurant-padding{
+   margin-top:10px;
+   max-width:100%;
+   padding:0px 12px;
+   position:relative;
+   max-width:100%;
+   text-align:left;
+   border-radius:9999px;
+   border:none;
+   text-align:center;
+   background-color:#eb1700ff;
+   color:#ffff;
+   padding:0px;
+   
+}
+.find-box-margin{
+   
+   position:relative;
+   max-width:100%;
+   padding:0px;
+   min-height:32px;
+   text-align:left;
+   border-radius:9990px;
+   border:none;
+   background-color:#eb1700ff;
+   color:#ffff;
+   text-decoration:none;
+
+}
+.find-box-padd{
+   position:relative;
+   max-width:100;
+   text-align:left;
+   border:none;
+   text-decoration:none;
+   border-radius:9999px;
+   border:none;
+   color:#ffff;
+   background-color:#eb1700ff;
+}
+
+.find-text{
+   width:100%;
+   font-family:medium;
+   font-size:14px;
+   font-weight:700px;
+   line-height:20px;
+   padding:0px;
+   position:relative;
+   min-height:32px;
+   width:100%;
+   border-radius:9999px;
+   border:none;
+   background-color:#eb1700ff;
+   color:#ffff;
+   text-align:left;
+}
+.Dinner-display{
+   width:100%;
+   box-sizing:border-box;
+
+}
+.dinner-image{
+   width:100%;
+   object-fit:cover;
+   padding-top:320px;
+   padding-right:20px;
+   padding-left:20px;
+   padding-bottom:20px;
+}
+ .Dashpass-paragraph{
+   text-align:center;
+   align-items:center;
+   justify-content:center;
+
+   flex-direction:column;
+
+ }  
+.Dashpass-delivery{
+   text-align:left;
+   max-width:90%;
+   margin-top:20px;
+   color:#191919ff;
+   font-size:24px;
+   font-weight:700px;
+   display:block;
+   font-family:medium;
+   font-size:32px;
+   line-height:28px;
+   text-decoration:none;
+
+}
+.order-days{
+   text-align:left;
+   margin-top:10px;
+   color:#191919ff;
+   font-family:medium;
+   font-size:28px;
+   font-weight:500px;
+   line-height:20px;
+   text-decoration:none;
+   display:block;
+   margin-top:10px;
+}
+.Dash-button{
+   margin-top:20px;
+   text-align:left;
+
+}
+.Dash-button-marign{
+  position:relative;
+  max-width:100%;
+  margin:0px;
+  padding:0px;
+  display:inline-flex;
+  min-height:32px;
+  align-items:center;
+  border-radius:9999px;
+  border:none;
+  background-color:#eb1700ff;
+  color:#ffff;
+  text-align:center;
+  border-radius:9999px;
+  border:none;
+
+}
+.Dash-button-padding{
+   display:flex;
+   max-width:100%;
+   padding:0px 12px;
+   position:relative;
+   max-width:100%;
+   align-items:center;
+   display:inline-flex;
+   justify-content:flex-start;
+   border-radius:9999px;
+   border:none;
+   text-align:center;
+   background-color:#eb1700ff;
+   color:#ffff;
+
+}
+.Dashpass-box{
+   display:inline-flex;
+   min-height:32px;
+   align-items:center;
+   text-align:center;
+   background-color:#eb1700ff;
+   color:#ffff;
+   justify-content:center;
+   position:relative;
+   max-width:100%;
+   padding:0px;
    
 }
 
+.Dashpass-box-margin{
+   justify-content:center;
+   min-height:32px;
+   align-items:center;
+   border-radius:9999px;
+   border:none;
+   align-items:center;
+   text-align:center;
+   background-color:#eb1700ff;
+   color:#ffff;
+   justify-content:center;
+   position:relative;
+   display:inline-flex;
+   font-family:medium;
 
+}
 
+.dashpass-box-text{
+   width:100%;
+   color:#ffff;
+   background-color:#eb1700ff;
+   font-size:14px;
+   line-height:20px;
+   font-weight:700px;
+   text-decoration:none;
+   text-align:center;
+   max-width:100%;
+   position:relative;
+   border-radius:9999px;
+   border:none;
+   align-items:center;
+   
+}
+.products-display{
+   background:url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png);
+   position:relative;
+   height:350px;
+}
+.products-display-margin{
+   position:relative;
+   height:100%;
+   text-align:center;
+   flex-direction:row;
+   position:0px;
+      
+}
+.products-display-line{
+  display:block;
+  max-width:100%;
+  padding:0px 12px;
+  background-color:#eb1700ff;
+  color:#ffff;
+  flex-direction:column;
 
+}
+.store-essential{
+   text-align:center;
+   color:#ffff;
+   filter:drop-shadow(rgba(0,0,0,0.2) 0px 2px 8px;
+   max-width:90%;
+   margin-top:50px;
+   font-size:32px;
+   font-weight:700px;
+   font-family:bold;
+   margin:0px;
+   padding:0px;
+   margin-top:20px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.second-line-delivery{
+   text-align:center;
+   color:#ffff;
+}
 
 
 
