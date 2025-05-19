@@ -10,19 +10,20 @@
 *.margin{
     position:relative;
 }
-
 .top-display{
    border:none;
    margin-top:16px;
    box-sizing:border-box;
    border-bottom:1px;
+ 
+}
+.top{
+   position:relative;
 }
 .top-display-margin{
    box-sizing:border-box;
    display:grid;
    width:100%;
-
-
 }
 .top-display-padding{
     display:grid;
@@ -33,7 +34,6 @@
     grid-template-rows: auto auto auto;
     padding:8px 8px;
     box-sizing:border-box;
-
 }
 .doordash-icon{
    max-width:100%;
@@ -153,12 +153,10 @@
 .second-display{
    flex-direction:column;
    align-items:center;
-
-
 }
 .second-display-margin{
-  background-image:url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
-  height:550px;
+  background-image:url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_mobile.png);
+  height:1350px;
   align-items:center;
   width:100%;
   justify-content:center;
@@ -171,9 +169,7 @@
    font-size:32px;
    text-align:center;
    display:inline-flex;  
-
 }
-
 .Doordash-margin{
    margin-top:20px;
    margin-bottom:20px;
@@ -188,17 +184,12 @@
   fill:#ffff;
   display :flex;
   align-items:center;
-  
-
 }
 .doordash-img-margin{
   margin-left:16px;
   line-height:12px;
   display:grid;
-  
   width:100%;
-  
-
 }
 .doordash-text{
  display:inlne-flex;
@@ -212,11 +203,14 @@
 }
 .delivery-enter-login{
   color:#ffff;
-  gap:20px;
+  gap:30px;
   font-family:medium;
-
+  max-width:350px;
+  font-size:32px;
+  font-weight:900px;
+  letter-spacing:0px;
+  line-height:32px;
 }
-
 .delivery-order{
    justify-content:center;
    margin-bottom:24px;
@@ -238,12 +232,12 @@
 }
 .login-open{
   position:absolute;
- right: 60px;
- margin-top:32px;
- justify-content: flex-start;
-display:inline-flex;;
-top: 70px;
-margin-top:50px;
+  right: 60px;
+  margin-top:32px;
+  justify-content: flex-start;
+  display:inline-flex;;
+  top: 70px;
+  margin-top:50px;
 }
 .login-open-margin{
   padding-left:32px;
@@ -284,7 +278,6 @@ margin-top:50px;
   color:#191919ff;
 
 }
-
 .login-margin{
    max-width:100%;
    display:flex;
@@ -376,8 +369,6 @@ margin-top:50px;
   text-align:center;
   background-color:#eb1700ff;
   color:#ffff;
-
-
 }
 .open-app-box{
    display:flex;
@@ -404,8 +395,6 @@ margin-top:50px;
    border-radius:9999px;
    color:#ffff;
    text-decoration:none;
-
-
 }
  .open-app-text{
    color:#ffff;
@@ -417,20 +406,13 @@ margin-top:50px;
    font-size:16px;
    font-weight:500px;
    text-decoration:none;
-  position:relative;
-  max-width:100%px;
-  min-height:32px;
-  justify-content:flex-start;
-  width:100%;
-}
-.Enter-Login{
-   display:flex;
-   flex-direction:column;
-   align-items:center;
-   justify-content:center;
+   position:relative;
+   max-width:100%px;
+   min-height:32px;
    width:100%;
-
 }
+
+
 .delivery-addess{
   border-radius:9999px;
   border:none;
@@ -458,20 +440,20 @@ margin-top:50px;
   font-weight:500px;
   line-height:22px;
   color:191919ff;
- display:flex;
- align-items:center;
- width:100%;
- background-color:#ffff;
- padding-left:350px;
- height:75px;
+  display:flex;
+  align-items:center;
+  width:100%;
+  background-color:#ffff;
+  padding-left:350px;
+  height:75px;   
 }
 .search{
    margin-right:12px;
    display:flex;
    line-height:22px;
-   fill:#191919ff;
+   color:#191919ff;
    align-items:center;
-   width:100%;
+   
    border-radius:9999px;
    border:none;
    max-width:100%;
@@ -481,11 +463,11 @@ margin-top:50px;
 .search-margin{
    display: flex;
    align-items:center;
-   justify-content:center;
    height:24px;
    fill:#191919ff;
    width:100%;
-   left:20px
+   left:20px;
+   color:#191919ff;
 }
 .Enter-delivery{
    justify-content:center;
@@ -519,8 +501,8 @@ margin-top:50px;
   max-width:100%;
 }
 .click-button-margin{
- background-color:#ffff;
-border:none;
+  background-color:#ffff;
+  border:none;
 }
 
 .login-button{
@@ -589,8 +571,6 @@ border:none;
    color:#191919ff;
    background-color:#ffff;
    margin-left:4px;
-
-
 }
 .login-button-text{
    width:100%;
@@ -646,7 +626,6 @@ border:none;
    display:flex;
    color:#eb1700ff;
    border:none;
-
 }
 .contents-app{
   max-width:100%;
@@ -664,7 +643,6 @@ border:none;
    text-decoration:none;
    border:none;
    display:flex;
-
 }
 .order-text{
   margin-left:4px;
@@ -677,7 +655,6 @@ border:none;
   display:flex;
   font-family:medium;
   color:#606060ff;
-
 }
 .yellow-star{
    margin-top:2px;
@@ -685,9 +662,7 @@ border:none;
    align-items:center;
    justify-content:flex-start;
     color:orange;
-
 }
-
 .star-rating{
    margin-left:4px;
    color:#606060ff;
@@ -716,7 +691,6 @@ border:none;
    background-color:#eb1700ff;
    color:#ffff;
    width:100%;
-   
 }
 .Red-app-margin{
    display:block;
@@ -729,8 +703,6 @@ border:none;
    border:none;
    text-align:center;
    color:#ffff;
-
-
 }
 .red-app-padding{
    max-width:100%;
@@ -746,9 +718,16 @@ border:none;
    background-color:#eb1700ff;
    color:#ffff;
    text-decoration:none;
-
-
 }
+
+@media (max-width:) {
+   
+}
+
+
+
+
+
 .Red-app-full{
    
    justify-content:center;
@@ -785,7 +764,6 @@ border:none;
   margin:0px auto;
 
 }
-
 .thrid-display-margin{
    display:flex;
    justify-content:center;
@@ -812,13 +790,11 @@ border:none;
 .scooty-img{
    margin-right:32px;
 }
-
 .scooty-display-margin{
    display:flex;
    flex-flow:column;
    width:100%;
    max-width:250px;
-
 }
 .scooty-display-padding{
    flex-direction:column;
@@ -890,7 +866,7 @@ border:none;
    min-width:360px;
    padding:16px;
    max-width:100%;
-   box-sizing:border-box;
+   
 
 }
 .Home-image{
@@ -907,18 +883,19 @@ border:none;
 }
 .become-padding{
    max-width:100%;
-   display:block;
-   margin-left:32px;
+   
+margin-left:48px;
 
 }
 .Become-merchant-text{
    margin-top:10px;
    color:#191919ff;
    font-family:medium;
-   
+   font-size:34px;
    font-weight:700px;
    text-decoration:none;
    padding:0px;
+   
 
 }
 .days-text{
@@ -940,6 +917,8 @@ border:none;
    background-color:#ffffff;
    color:#eb1700ff;
    align-items:center;
+   max-width:90%;
+   display:flex;
    
 }
 .Sign-doordash{
@@ -971,11 +950,11 @@ border:none;
    min-width:360px;
    padding:16px;
    max-width:100%;
-   box-sizing:border-box;
+   margin-right:62px;
 
 }
 .mobile-display{
-   margin-right:32px;
+   margin-right:62px;
    margin:0px;
    color:#191919ff;
    font-family:bold;
@@ -1001,6 +980,7 @@ border:none;
    text-decoration:none;
    right:32px;
    align-items:center;
+   margin-right:62px;
 }
 .Doordash-experience-margin{
   
@@ -1014,11 +994,10 @@ border:none;
    right:32px;
    align-items:center;
    justify-content:12px;
-
+   max-width:250px;
 }
 .Get-doordash-text{
    color:#191919ff;
-   display:flex;
    font-weight:700px;
    font-family:medium;
    text-decoration:none;
@@ -1068,328 +1047,166 @@ border:none;
    align-items:center;
 }
 .sixth-display{
+  width:100%;
+
+}
+.sixth-display-top{
    width:100%;
 
 }
-.Restaurants{
+.sixth-margin{
+   margin-bottom:-300px;
+   display:flex;
+   flex-direction:column;
+   min-height:90%;
+   align-items:center;
+   padding:20px;
    width:100%;
-   box-sizing:border-box;
 
 }
-.Restaurants-margin{
-flex-direction:column;
-display:flex;
-padding:20px;
-min-width:90%;
-align-items:center;
-margin-bottom:-300px;
-}
-
-.pizza-image{
- width:100%;
- 
- object-fit:cover;  
-}
-.Everything-delivered-full{
+.sixth-image{
+  width:100%;
+} 
+.sixth-lines{
    text-align:left;
-   font-family:bold;
-   font-size:32px;
-   margin-top:10px;
-}
-
-.crave-food{
-   text-align:left;
-   max-width:90%;
-   color:#191919ff;
-   font-family:bold;
-   font-size:32px;
-   text-decoration:none;
-   margin-top:10px;
+   padding:20px;
+  flex-direction:column;
    
 }
-.fav-food{
-   text-align:left;
-   margin-top:10px;
-   color:#191919ff;
-   font-family:medium;
-   font-size:24px;
-   font-weight:700px;
-   line-height:22px;
-   text-decoration:none;
-   display:block;
-   margin-top:10px;
-   padding:0px;
-   margin-bottom:10px ;
-
+.frist-line{
+  font-size:24px;
+  font-weight:700px;
+  font-family:medium;
+  color:#191919ff;
+  max-width:90%;
+  margin-top:20px;
+  text-align:left;
+  margin-top:20px;
+  justify-content:left;
 }
-.Home-delivery{
-   color:#191919ff;
-   text-align:center;
+.fav-restaurants{
    text-align:left;
-   font-family:medium;
+   margin-top:10px;
    font-size:18px;
-   font-weight:500px;
-   line-height:20px;
+   font-weight:700px;
    text-decoration:none;
-   display:block;
    margin-top:10px;
    padding:0px;
-   
-   
+   font-family:bold;
+   display:flex;
 }
-.find-restaurants{
-   margin-top:20px;
-   box-sizing:border-box;
+.pizza-delivery{
    text-align:left;
+   margin-top:10px;
+   color:#191919ff;
+   margin-top:20px;
+   font-family:medium;
+  max-width:50%;
+}
+.restaurants-button{
+  margin-top:20px;
+  text-align:left;
 
 }
-.find-restaurant-margin{
+.restaurants-button-margin{
    position:relative;
    max-width:100%;
-   padding:0px 12px;
    margin:0px;
+   min-height:32px;
+   align-items:center;
+   border-radius:9999px;
+   border:0px;
+   justify-content:flex-start;
+   text-align:center;
+   color:#ffff;
+   
+}
+.restaurants-button-padding{
+   max-width:100%;
+   position:relative;
+   max-width:100%;
    display:inline-flex;
-   min-height: 32px;
    align-items:center;
    justify-content:center;
    border-radius:9999px;
    border:none;
-   justify-content:center;
-   text-decoration:none;
    background-color:#eb1700ff;
    color:#ffff;
    text-align:center;
 
 }
-.find-restaurant-padding{
-   margin-top:10px;
+.find-margin{
    max-width:100%;
-   padding:0px 12px;
+   display:flex;
+   position: relative;
+   max-width: 100%;
+   margin: 0px;
+   padding: 0px;
+   display: inline-flex;
+   padding:background-color:#eb1700ff;
+   color:#ffff;
+
+}
+.find-padding{
+   display:flex;
+   min-width:0px;
    position:relative;
    max-width:100%;
-   text-align:left;
+   display:inline-flex;
    border-radius:9999px;
    border:none;
    text-align:center;
    background-color:#eb1700ff;
    color:#ffff;
-   padding:0px;
-   
-}
-.find-box-margin{
-   
-   position:relative;
-   max-width:100%;
-   padding:0px;
-   min-height:32px;
-   text-align:left;
-   border-radius:9990px;
-   border:none;
-   background-color:#eb1700ff;
-   color:#ffff;
-   text-decoration:none;
 
 }
-.find-box-padd{
-   position:relative;
-   max-width:100;
-   text-align:left;
-   border:none;
-   text-decoration:none;
-   border-radius:9999px;
-   border:none;
-   color:#ffff;
-   background-color:#eb1700ff;
-}
-
 .find-text{
    width:100%;
    font-family:medium;
    font-size:14px;
    font-weight:700px;
-   line-height:20px;
-   padding:0px;
+   text-align:center;
+   background-color:#eb1700ff;
+   color:#ffff;
    position:relative;
-   min-height:32px;
-   width:100%;
+   justify-content:center;
    border-radius:9999px;
    border:none;
-   background-color:#eb1700ff;
-   color:#ffff;
-   text-align:left;
-}
-.Dinner-display{
-   width:100%;
-   box-sizing:border-box;
 
-}
-.dinner-image{
-   width:100%;
-   object-fit:cover;
-   padding-top:320px;
-   padding-right:20px;
-   padding-left:20px;
-   padding-bottom:20px;
-}
- .Dashpass-paragraph{
-   text-align:center;
-   align-items:center;
-   justify-content:center;
-
-   flex-direction:column;
-
- }  
-.Dashpass-delivery{
-   text-align:left;
-   max-width:90%;
-   margin-top:20px;
-   color:#191919ff;
-   font-size:24px;
-   font-weight:700px;
-   display:block;
-   font-family:medium;
-   font-size:32px;
-   line-height:28px;
-   text-decoration:none;
-
-}
-.order-days{
-   text-align:left;
-   margin-top:10px;
-   color:#191919ff;
-   font-family:medium;
-   font-size:28px;
-   font-weight:500px;
-   line-height:20px;
-   text-decoration:none;
-   display:block;
-   margin-top:10px;
-}
-.Dash-button{
-   margin-top:20px;
-   text-align:left;
-
-}
-.Dash-button-marign{
-  position:relative;
-  max-width:100%;
-  margin:0px;
-  padding:0px;
-  display:inline-flex;
-  min-height:32px;
-  align-items:center;
-  border-radius:9999px;
-  border:none;
-  background-color:#eb1700ff;
-  color:#ffff;
-  text-align:center;
-  border-radius:9999px;
-  border:none;
-
-}
-.Dash-button-padding{
-   display:flex;
-   max-width:100%;
-   padding:0px 12px;
-   position:relative;
-   max-width:100%;
-   align-items:center;
-   display:inline-flex;
-   justify-content:flex-start;
-   border-radius:9999px;
-   border:none;
-   text-align:center;
-   background-color:#eb1700ff;
-   color:#ffff;
-
-}
-.Dashpass-box{
-   display:inline-flex;
-   min-height:32px;
-   align-items:center;
-   text-align:center;
-   background-color:#eb1700ff;
-   color:#ffff;
-   justify-content:center;
-   position:relative;
-   max-width:100%;
-   padding:0px;
-   
-}
-
-.Dashpass-box-margin{
-   justify-content:center;
-   min-height:32px;
-   align-items:center;
-   border-radius:9999px;
-   border:none;
-   align-items:center;
-   text-align:center;
-   background-color:#eb1700ff;
-   color:#ffff;
-   justify-content:center;
-   position:relative;
-   display:inline-flex;
-   font-family:medium;
 
 }
 
-.dashpass-box-text{
-   width:100%;
-   color:#ffff;
-   background-color:#eb1700ff;
-   font-size:14px;
-   line-height:20px;
-   font-weight:700px;
-   text-decoration:none;
-   text-align:center;
-   max-width:100%;
-   position:relative;
-   border-radius:9999px;
-   border:none;
-   align-items:center;
-   
-}
-.products-display{
-   background:url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png);
-   position:relative;
-   height:350px;
-}
-.products-display-margin{
-   position:relative;
-   height:100%;
-   text-align:center;
-   flex-direction:row;
-   position:0px;
-      
-}
-.products-display-line{
-  display:block;
-  max-width:100%;
-  padding:0px 12px;
-  background-color:#eb1700ff;
-  color:#ffff;
-  flex-direction:column;
 
-}
-.store-essential{
-   text-align:center;
-   color:#ffff;
-   filter:drop-shadow(rgba(0,0,0,0.2) 0px 2px 8px;
-   max-width:90%;
-   margin-top:50px;
-   font-size:32px;
-   font-weight:700px;
-   font-family:bold;
-   margin:0px;
-   padding:0px;
-   margin-top:20px;
 
-}
-.second-line-delivery{
-   text-align:center;
-   color:#ffff;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
