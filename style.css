@@ -1461,7 +1461,7 @@ margin-left:48px;
 }
 .text-lines{
    max-width:90%;
-   margin-left:20px;
+   margin-left:50px;
 }
 .doorstep-line{
    text-align:left;
@@ -1579,7 +1579,6 @@ margin-left:48px;
    overflow-x:scroll;
    width:100%;
    background-color:rgb(254,241,238);
-   display:none;
 
 }
 .scroll-display-margin{
@@ -1593,7 +1592,396 @@ margin-left:48px;
 }
 .package-image{
  width:100%;
+
+}
+.package-image img{
+   width:80%;
+   height:180px;
+   object-fit:cover;
+   margin-left: 40px;
+
+}
+.package-margin{
+  text-align:center;
+  align-items:center;
+  flex-direction:column;
+  display:flex;
+
+}
+.package-text{
+   text-align:center;
+   margin-top:20px;
+   max-width:90%;
+   color:#191919ff;
+   font-family:bold;
+   font-size:24px;
+   font-weight:700px;
+
+}
+
+.package-second-text{
+   text-align:center;
+   margin-top:10px;
+   color:#191919ff;
+   font-size:14px;
+   font-weight:500px;
+   line-height:20px;
+   font-family:medium;
+   max-width:70%;
+}
+.package-button{
+   margin-top:20px;
+   align-items:center;
+  
+}
+.package-button-margin{
+   position:relative;
+   max-width:100%;
+  display:inline-flex;
+  min-height:32px;
+  align-items:center;
+  justify-content:center;
+  border-radius:9999px;
+  border:none;
+  background-color:#eb1700ff;
+  color:#ffff;
+  margin-top:20px;
+
+}
+.package-button-padding{
+   position:relative;
+   max-width:100%;
+  display:inline-flex;
+  min-height:32px;
+  align-items:center;
+  justify-content:center;
+  border-radius:9999px;
+  border:none;
+  background-color:#eb1700ff;
+  color:#ffff;
+}
+.package-first{
+   max-width:100%;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   position:relative;
+   display:inline-flex;
+   border-radius:9999px;
+   border:none;
+   background-color:#eb1700ff;
+   color:#ffff;
+   text-align:center;
+}
+.package-two{
+   max-width:100%;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   position:relative;
+   display:inline-flex;
+   border-radius:9999px;
+   border:none;
+   background-color:#eb1700ff;
+   color:#ffff;
+   text-align:center;
+   font-family:bold;
+   font-size:14px;
+   padding:0px 12px;
+}
+.package-texts{
+   padding:0px 12px ;
+   width:100%;
+   color:#ffff;
+   background-color:#eb1700ff;
+   font-size:14px;
+   font-weight:700px;
+   font-family:medium;
+   display:inline-flex;
+   border-radius:9999px;
+   border:none;
+
+}
+.flower-display-margin{
+   margin-left:5%;
+   margin-right:-10%;
+   display:flex;
+   min-width:90%;
+   align-items:center;
+   flex-direction:column;
+
+}
+.flower-display{
+   width:100%;
+}
+.flower-display img{
+   width:65%;
+   margin-left:40px;
+}
+
+.flowers-lines{
+   text-align:center;
+   align-items:center;
+   display:flex;
+   flex-direction:column;
+   margin-right:80px;
+}
+.flowers{
+   text-align:center;
+   max-width:90%;
+   margin-top:20px;
+   color:#191919ff;
+   font-family:bold;
+   font-size:24px;
+   font-weight:700px;
    
 }
+.blooms{
+   color:#191919ff;
+   margin-top:10px;
+   text-align:center;
+   font-family:medium;
+   font-size:14px;
+   font-weight:500px;
+   align-items:center;
+   max-width:80%;
+}  
+.flowers-button{
+   margin-top:20px;
+}
+.flowers-button-margin{
+   position: relative;
+   max-width:100%;
+   padding:0px;
+   min-height:32px;
+   align-items:center;
+   border-radius:9999px;
+   border:none;
+   align-items:center;
+   background-color:#eb1700ff;
+   color:#ffff;
+
+}
+.flowers-button-padding{
+   padding:0px 12px;
+   max-width:100%;
+   position:relative;
+   max-width:100%;
+   display:inline-flex;
+   border-radius:9999px;
+   border:none;
+   background-color:#eb1700ff;
+   color:#ffff;
+   align-items:center;
+   
+}
+.flowers-icon{
+   max-width:100%;
+   display:inline-flex;
+   align-items:center;
+   position:relative;
+   min-height:32px;
+   text-align:center;
+   background-color:#eb1700ff;
+   color:#ffff;
+
+}
+.flower-icon-margin{
+   justify-content:center;
+   position:relative;
+   display:inline-flex;
+   justify-content:center;
+   border-radius:9999px;
+   border:none;
+   min-height:32px;
+   background-color:#eb1700ff;
+   color:#ffff;
+   align-items:center;
+   max-width:100%;
+}
+.flower-text{
+   justify-content:center;
+   position:relative;
+   display:inline-flex;
+   justify-content:center;
+   border-radius:9999px;
+   border:none;
+   min-height:32px;
+   font-weight:700px;
+   background-color:#eb1700ff;
+   color:#ffff;
+   align-items:center;
+   max-width:100%;
+   font-size:14px;
+   font-family:medium;
+}
+.bottile-display-margin{
+   
+   margin-right:-10%;
+   min-width:90%;
+   align-items:center;
+}
+.bottile-display{
+   width:100%;
+
+
+}
+.bottile-display img{
+   width:65%;
+}
+.bottile-lines{
+   text-align:center;
+   align-items:center;
+}
+.minibar{
+   max-width:90%;
+   text-align:center;
+   margin-top:20px;
+   color:#191919ff;
+   font-size:24px;
+   font-weight:700px;
+   font-family:bold;
+   align-items:center;
+
+}
+.special{
+   align-items:center;
+   margin-top:10px;
+   color:#191919ff;
+   margin-top:10px;
+   font-family:medium;
+   font-size:14px;
+   font-weight:500px;
+   max-width:80%;
+}
+
+.alcohol-border{
+   margin-top:20px;
+   align-items:center;
+
+}
+.alcohol{
+   position:relative;
+   max-width:100%;
+   display:inline-flex;
+   min-height:32px;
+   align-items:center;
+   border-radius:9999px;
+   justify-content:center;
+   background-color:#eb1700ff;
+   color:#ffff;
+   text-align:center;
+   border:none;
+}
+
+.alcohol-margin{
+   background-color:#eb1700ff;
+   color:#ffff;
+   text-align:center;
+   position:relative;
+   max-width:100%;
+   display:inline-flex;
+   min-height:32px;
+   align-items:center;
+   border-radius:9999px;
+   justify-content:center;
+   border:none;
+
+}
+.alcohol-padding{
+   background-color:#eb1700ff;
+   color:#ffff;
+   text-align:center;
+   position:relative;
+   max-width:100%;
+   display:inline-flex;
+   min-height:32px;
+   align-items:center;
+   border-radius:9999px;
+   justify-content:center;
+   border:none;
+}
+.alcohol-box{
+  min-width:0px;
+  display:flex;
+  justify-content:center;
+  position:relative;
+  display:inline-flex;
+  min-height:32px;
+  border-radius:9999px;
+  border:none;
+  background-color:#eb1700ff;
+  color:#ffff;
+  padding:0px 12px;
+  text-align:center;
+
+}
+.alcohol-text{
+   width:100%;
+   color:#ffff;
+   background-color:#eb1700ff;
+   font-size:14px;
+   font-weight:700px;
+   font-family:medium;
+   line-height:20px;
+   text-align:center;
+   max-width:100%;
+   border-radius:9999px;
+   border:none;
+   position:relative;
+   max-width:100%;
+
+}
+.enjoy-text{
+   text-align:center;
+   margin-top:10px;
+   color:#191919ff;
+   font-family:bold;
+   font-size:12px;
+   font-weight:700px;
+   align-items:center;
+
+}
+.dog-margin{
+   margin-right:5%;
+   margin-left:5%;
+   display:flex;
+   min-width:90%;
+   align-items:center;
+
+}
+.dog-display{
+   width: 100%;
+   height: 180px;
+
+}
+
+.dog-display img{
+   margin-bottom:200px;
+   margin-left:50px;
+}
+.pets-line{
+   text-align:center;
+   align-items:center;
+   display: flex;
+   flex-direction:column;
+   margin-right: 80px;
+   
+}
+.pets-text{
+    text-align: center;
+    margin-top: 20px;
+    color: #191919ff;
+    font-family: bold;
+    font-size: 24px;
+    font-weight: 700px
+}
+
+
+
+
+
+
+
 
 
